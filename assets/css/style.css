@@ -667,6 +667,57 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Services Menù
+--------------------------------------------------------------*/
+.services-menu .icon-box {
+  margin-bottom: 20px;
+}
+
+.services-menu .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #149ddd;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #149ddd;
+  color: #fff;
+}
+
+.services-menu .icon-box:hover .icon {
+  background: #fff;
+  color: #149ddd;
+}
+
+.services-menu .icon-box:hover .icon i {
+  color: #149ddd;
+}
+
+.services-menu .title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services-menu .title a {
+  color: #343a40;
+}
+
+.services-menu .title a:hover {
+  color: #149ddd;
+}
+
+.services-menu .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+/*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials .testimonial-item {
