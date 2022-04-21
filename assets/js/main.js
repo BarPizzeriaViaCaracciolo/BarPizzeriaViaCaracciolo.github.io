@@ -31,7 +31,7 @@
 
         $('html, body').animate({
           scrollTop: scrollto
-        }, 500, 'easeInOutExpo');
+        }, 150, 'easeInOutExpo');
 
         if ($(this).parents('.nav-menu, .mobile-nav').length) {
           $('.nav-menu .active, .mobile-nav .active').removeClass('active');
@@ -55,7 +55,7 @@
         var scrollto = $(initial_nav).offset().top;
         $('html, body').animate({
           scrollTop: scrollto
-        }, 500, 'easeInOutExpo');
+        }, 150, 'easeInOutExpo');
       }
     }
   });
