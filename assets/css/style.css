@@ -218,8 +218,8 @@ h3 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 90%;
-  height: 90vh;
+  width: auto;
+  height: auto; /*90vh;*/
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
 }
