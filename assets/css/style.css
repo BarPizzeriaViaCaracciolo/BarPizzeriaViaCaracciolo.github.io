@@ -219,7 +219,7 @@ h3 {
 --------------------------------------------------------------*/
 #hero {
   width: auto;
-  height:  90vh;
+  height:  auto;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
 }
