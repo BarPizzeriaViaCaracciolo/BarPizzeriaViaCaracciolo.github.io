@@ -16,7 +16,7 @@
       loop: true,
       typeSpeed: 100,
       backSpeed: 50,
-      backDelay: 500
+      backDelay: 300
     });
   }
 
@@ -117,7 +117,7 @@
   // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
-    time: 500
+    time: 300
   });
 
   // Skills section
@@ -181,7 +181,7 @@
   // Init AOS
   function aos_init() {
     AOS.init({
-      duration: 500,
+      duration: 300,
       easing: "ease-in-out-back",
       once: true
     });
