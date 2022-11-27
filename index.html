@@ -35,7 +35,7 @@
 <body>
   <div class="modal hide fade" id="myModal">
       <div class="modal-header">
-          <a class="close" data-dismiss="modal">×</a>
+          <a class="close" onclick="document.getElementById('myModal').modal('hide');">×</a>
           <h3>Modal header</h3>
       </div>
       <div class="modal-body">
@@ -1101,10 +1101,7 @@
           $('#myModal').modal('show');
       });
   </script>
-  
-  <script type="text/javascript">
-    this.$element.on('click.dismiss.bs.modal', '[data-dismiss="modal"]', $.proxy(this.hide, this))
-  </script>
+
   
   <script src="assets/js/main.js"></script>
 
