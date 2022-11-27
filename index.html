@@ -1102,6 +1102,10 @@
       });
   </script>
   
+  <script type="text/javascript">
+    this.$element.on('click.dismiss.bs.modal', '[data-dismiss="modal"]', $.proxy(this.hide, this))
+  </script>
+  
   <script src="assets/js/main.js"></script>
 
 </body>
