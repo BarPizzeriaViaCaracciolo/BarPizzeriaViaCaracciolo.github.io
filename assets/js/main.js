@@ -16,7 +16,7 @@
       loop: true,
       typeSpeed: 100,
       backSpeed: 50,
-      backDelay: 300
+      backDelay: 200
     });
   }
 
@@ -31,7 +31,7 @@
 
         $('html, body').animate({
           scrollTop: scrollto
-        }, 150, 'easeInOutExpo');
+        }, 100, 'easeInOutExpo');
 
         if ($(this).parents('.nav-menu, .mobile-nav').length) {
           $('.nav-menu .active, .mobile-nav .active').removeClass('active');
@@ -55,7 +55,7 @@
         var scrollto = $(initial_nav).offset().top;
         $('html, body').animate({
           scrollTop: scrollto
-        }, 150, 'easeInOutExpo');
+        }, 100, 'easeInOutExpo');
       }
     }
   });
