@@ -290,7 +290,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #040b14;
 }
 
 .section-title {
@@ -674,7 +674,7 @@ section {
 }
 
 .services .title a {
-  color: #343a40;
+  color: #fff;
 }
 
 .services .title a:hover {
@@ -725,7 +725,7 @@ section {
 }
 
 .services-menu .title a {
-  color: #343a40;
+  color: #fff;
 }
 
 .services-menu .title a:hover {
@@ -836,7 +836,7 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
-  background-color: #f5f8fd;
+  background-color: #040b14;
 }
 
 .contact .info {
