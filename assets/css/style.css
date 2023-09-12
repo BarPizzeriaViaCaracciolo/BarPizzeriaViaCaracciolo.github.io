@@ -912,7 +912,7 @@ section {
   width: 100%;
   padding: 30px;
   background: #fff;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 24px 0 rgba(4, 11, 20, 0.8);
 }
 
 .contact .php-email-form .form-group {
