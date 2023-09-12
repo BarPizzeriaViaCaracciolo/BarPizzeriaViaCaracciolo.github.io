@@ -841,9 +841,9 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: #040b14;
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 24px 0 rgba(4, 11, 20, 0.8);
 }
 
 .contact .info i {
